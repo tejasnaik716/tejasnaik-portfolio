@@ -1,0 +1,15 @@
+{
+  "name": "Tejas Naik — UI/UX Designer",
+  "short_name": "TejasDesign",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071024",
+  "theme_color": "#0f1724",
+  "icons": [
+    {
+      "src": "assets/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
