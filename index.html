@@ -3,89 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Tejas Naik | Portfolio</title>
+    <title>Tejas Naik - UI/UX Designer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png"> <!-- Replace with actual favicon -->
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Tejas Naik</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <div class="intro">
-            <h1>Hello, I'm Tejas Naik</h1>
-            <h2>UI/UX Designer</h2>
-            <p>I'm a Computer Engineering student with experience in UI/UX design, web development and software design. Skilled in Python, C/C++, MySQL, with exposure to AI & cybersecurity.</p>
-            <button onclick="window.location='portfolio.html'">View My Work</button>
-            <button onclick="window.location='contact.html'">Let's Connect</button>
         </div>
-        <img src="your-image-url.jpg" alt="Tejas Naik">
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm Tejas Naik</h1>
+                <p>UI/UX Designer passionate about creating intuitive and beautiful digital experiences.</p>
+                <a href="#projects" class="cta-btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-bg.jpg" alt="Hero Background">
+            </div>
+        </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile.jpg" alt="Tejas Naik" class="profile-img">
+                <div class="about-text">
+                    <p>I am a dedicated UI/UX Designer with a keen eye for detail and a passion for user-centered design. With experience in various projects, I strive to bridge the gap between functionality and aesthetics.</p>
+                    <p>When I'm not designing, you can find me exploring new design trends or collaborating on creative projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
     <section id="skills">
-        <h3>Skills & Expertise</h3>
-        <div class="skillsContainer">
-            <div class="skill">Figma <span>80%</span></div>
-            <div class="skill">C <span>75%</span></div>
-            <div class="skill">Python <span>75%</span></div>
-            <div class="skill">JavaScript <span>70%</span></div>
-            <div class="skill">MySQL <span>85%</span></div>
-            <div class="skill">HTML & CSS <span>80%</span></div>
-            <div class="skill">Canvas <span>70%</span></div>
-            <div class="skill">C++ <span>85%</span></div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <h3>Latest Work</h3>
-        <div class="portfolioContainer">
-            <div class="portfolioItem">
-                <h4>Easy Parking</h4>
-                <p>Smart parking solution with intuitive UI/UX design for seamless parking space management.</p>
-            </div>
-            <div class="portfolioItem">
-                <h4>WhatsApp Redesign</h4>
-                <p>Modern reimagining of WhatsApp interface with enhanced user experience.</p>
-            </div>
-            <div class="portfolioItem">
-                <h4>Product Display</h4>
-                <p>E-commerce product showcase with engaging layouts.</p>
-            </div>
-            <div class="portfolioItem">
-                <h4>Kids Calendar</h4>
-                <p>Colorful and playful calendar application designed for children's engagement.</p>
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Figma</h3>
+                    <p>Proficient in creating wireframes, prototypes, and high-fidelity designs.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Adobe XD</h3>
+                    <p>Expert in designing interactive prototypes and user flows.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Sketch</h3>
+                    <p>Skilled in vector-based design and UI component creation.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>HTML/CSS</h3>
+                    <p>Basic front-end development for design handoff.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="experience">
-        <h3>Experience</h3>
-        <div class="experienceContainer">
-            <div class="experienceItem">
-                <h4>UI/UX Design Intern</h4>
-                <h5>Fluxatic Global (July 2024 - August 2024)</h5>
-                <p>Designed wireframes and user flows using Figma. Created intuitive user experiences.</p>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Mobile App Redesign</h3>
+                    <p>Redesigned a fitness app for better usability and engagement.</p>
+                    <a href="#" class="project-link">View Case Study</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <h3>E-commerce Website</h3>
+                    <p>Created a seamless shopping experience with intuitive navigation.</p>
+                    <a href="#" class="project-link">View Case Study</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <h3>Dashboard UI</h3>
+                    <p>Designed a data visualization dashboard for analytics.</p>
+                    <a href="#" class="project-link">View Case Study</a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-        <h3>Let's Connect</h3>
-        <p>Email: <a href="mailto:tejasnaik716@gmail.com">tejasnaik716@gmail.com</a></p>
-        <p>Phone: +91 9075634037</p>
-        <button onclick="window.location='download.html'">Download Resume</button>
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/tejasnaik" target="_blank">LinkedIn</a>
+                    <a href="https://dribbble.com/tejasnaik" target="_blank">Dribbble</a>
+                    <a href="https://behance.net/tejasnaik" target="_blank">Behance</a>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Tejas Naik</p>
+        <p>&copy; 2023 Tejas Naik. All rights reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
