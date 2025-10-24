@@ -3,197 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Tejas Naik, a UI/UX Designer and Computer Engineering student. Showcasing projects, experience, and skills in web design and development.">
-    <meta name="keywords" content="UI/UX Designer, Portfolio, Tejas Naik, Web Development, Computer Engineering">
-    <meta name="author" content="Tejas Naik">
-    <title>Tejas Naik - UI/UX Designer Portfolio</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <link rel="manifest" href="manifest.json">
-    <!-- Google Fonts: Inter for clean, modern typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tejas Naik - UI/UX Designer</title>
 </head>
 <body>
-    <!-- Header / Navigation -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1>Tejas Naik</h1>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#hero" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </nav>
-        </div>
+    <header>
+        <nav>
+            <h1>TN</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2 class="hero-headline">Designing intuitive experiences that connect people and technology.</h2>
-                <p class="hero-subtext">As a UI/UX Designer and Computer Engineering student, I focus on creating user-friendly digital products with a passion for web development and emerging technologies.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Work</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="assets/images/hero.jpg" alt="Illustration of a UI/UX designer at work" loading="lazy">
-            </div>
+    <section id="home">
+        <h2>Hello, I'm</h2>
+        <h1>Tejas Naik</h1>
+        <h3>UI/UX Designer</h3>
+        <p>I'm a Computer Engineering student with experience in UI/UX design, web development and software design. Skilled in Python, C/C++, MySQL, with exposure to AI & cybersecurity.</p>
+        <a href="#portfolio">View My Work</a>
+        <a href="#contact">Let's Connect</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Expertise</h2>
+        <p>A comprehensive overview of my technical and design capabilities</p>
+        <div class="skill"><span>Figma</span><div class="bar"><div class="percentage" style="width: 80%;"></div></div></div>
+        <div class="skill"><span>C</span><div class="bar"><div class="percentage" style="width: 75%;"></div></div></div>
+        <div class="skill"><span>Python</span><div class="bar"><div class="percentage" style="width: 75%;"></div></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><div class="percentage" style="width: 70%;"></div></div></div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Latest Work</h2>
+        <div class="project">
+            <h4>Easy Parking</h4>
+            <p>Mobile App Design: Smart parking solution with intuitive UI/UX design for seamless parking space management.</p>
+        </div>
+        <div class="project">
+            <h4>WhatsApp Redesign</h4>
+            <p>UI/UX Design: Modern reimagining of WhatsApp interface with enhanced user experience and visual hierarchy.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h4>UI/UX Design Intern - Fluxatic Global</h4>
+            <p>July 2024 – August 2024</p>
+            <p>Designed wireframes and prototypes using Figma. Applied colour theory for intuitive user experiences.</p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="assets/images/tejas-avatar.jpg" alt="Profile picture of Tejas Naik" loading="lazy">
-                </div>
-                <div class="about-text">
-                    <p>I’m a Computer Engineering student with honours in ALML and practical experience in UI/UX design, web development, and software design. I enjoy working with C/C++, Python, and MySQL. Passionate about creating user-friendly digital products and continuously learning new technologies.</p>
-                    <div class="skills">
-                        <span class="skill-tag">UX Research</span>
-                        <span class="skill-tag">UI Design</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Canva</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="assets/images/project1.jpg" alt="Easy Parking app thumbnail" loading="lazy">
-                    <h3>Easy Parking</h3>
-                    <p>A user-friendly app that lets users find, reserve, and navigate to a parking spot.</p>
-                    <button class="btn btn-primary" data-project="1">View Case Study</button>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project2.jpg" alt="Cyberbullying Detection app thumbnail" loading="lazy">
-                    <h3>Cyberbullying and Hate Speech Detection</h3>
-                    <p>Full-stack web app that detects hateful text, images, and emojis from Twitter using custom ML APIs.</p>
-                    <button class="btn btn-primary" data-project="2">View Case Study</button>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project3.jpg" alt="E-Commerce UI thumbnail" loading="lazy">
-                    <h3>E-Commerce UI for Cricket Gear</h3>
-                    <p>Designed admin, seller, and customer dashboards applying Gestalt principles.</p>
-                    <button class="btn btn-primary" data-project="3">View Case Study</button>
-                </div>
-                <div class="project-card">
-                    <img src="assets/images/project4.jpg" alt="Student Management System thumbnail" loading="lazy">
-                    <h3>Student Management System</h3>
-                    <p>Database-driven system for managing student marks, grades, and reports.</p>
-                    <button class="btn btn-primary" data-project="4">View Case Study</button>
-                </div>
-            </div>
-        </div>
-        <!-- Modal for Project Details -->
-        <div id="project-modal" class="modal" aria-hidden="true">
-            <div class="modal-content">
-                <span class="close-modal" aria-label="Close modal">&times;</span>
-                <div id="modal-body">
-                    <!-- Dynamic content loaded via JS -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="experience-item">
-                <h3>UI/UX Design Intern — Fluxatic Global (July 2024 - Aug 2024)</h3>
-                <ul>
-                    <li>Designed wireframes, user flows, and prototypes in Figma and Miro.</li>
-                    <li>Collaborated with a 5-member team to deliver production-ready designs.</li>
-                    <li>Applied color theory, visual hierarchy, and Gestalt principles.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <h3>BE Computer – Shree Rayeshwar Institute of Engineering and Information Technology (Pursuing)</h3>
-                </div>
-                <div class="education-item">
-                    <h3>UX Design – Tata Strive Skill Development Centre (2025)</h3>
-                </div>
-                <div class="education-item">
-                    <h3>HSSC – Shree Damodar Higher Secondary School of Science (72%)</h3>
-                </div>
-                <div class="education-item">
-                    <h3>SSC – School of Symbiosis, Goa (86%)</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:tejasnaik716@gmail.com">tejasnaik716@gmail.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+919075634037">+91 9075634037</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tejas-naik-77488a216" target="_blank">linkedin.com/in/tejas-naik-77488a216</a></p>
-            </div>
-            <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-                <a href="#" class="btn btn-secondary">Download Resume</a>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; <span id="year"></span> Tejas Naik. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/tejas-naik-77488a216" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-                <a href="https://github.com/tejasnaik" target="_blank" aria-label="GitHub">GitHub</a>
-                <a href="https://dribbble.com/tejasnaik" target="_blank" aria-label="Dribbble">Dribbble</a>
-            </div>
-        </div>
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <p>Email: tejasnaik716@gmail.com</p>
+        <p>Phone: +91 9075634037</p>
+        <a href="#">Get in Touch</a>
+        <a href="#">Download Resume</a>
     </footer>
-
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
